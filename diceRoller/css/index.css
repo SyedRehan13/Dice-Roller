@@ -1,0 +1,39 @@
+#container{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#roleDice{
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #3F5EFB, #FC466B);
+    color: white;
+    cursor: pointer;
+    transition: opacity ease-in-out 0.2s;
+}
+
+#roleDice:hover{
+    opacity: 0.9;
+}
+
+#roleDice:active{
+    opacity: 0.7;
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
